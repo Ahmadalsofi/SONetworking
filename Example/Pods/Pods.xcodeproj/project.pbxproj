@@ -170,11 +170,11 @@
 		3C6859022728748F002B2B23 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				3C6859032728748F002B2B23 /* DataTransferService */,
 				3C6859082728748F002B2B23 /* ServiceConfig.swift */,
+				3C6859032728748F002B2B23 /* DataTransferService */,
 				3C6859092728748F002B2B23 /* NetworkService */,
-				3C68590F2728748F002B2B23 /* Extensions */,
 				3C6859142728748F002B2B23 /* Endpoint */,
+				3C68590F2728748F002B2B23 /* Extensions */,
 			);
 			name = Module;
 			path = SONetworking/Classes/Module;
@@ -217,10 +217,10 @@
 		3C6859142728748F002B2B23 /* Endpoint */ = {
 			isa = PBXGroup;
 			children = (
+				3C6859182728748F002B2B23 /* Endpoint.swift */,
 				3C6859152728748F002B2B23 /* Requestable.swift */,
 				3C6859162728748F002B2B23 /* ResponseRequestable.swift */,
 				3C6859172728748F002B2B23 /* HTTPMethodType.swift */,
-				3C6859182728748F002B2B23 /* Endpoint.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
