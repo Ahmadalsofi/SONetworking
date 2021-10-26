@@ -1,0 +1,45 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "ebf87293fd774fa799f5083024c6e1d3aa7430f2789cf29370e5ba123afa5f81"
+    },
+    {
+      "guid" : "ebf87293fd774fa799f5083024c6e1d391c9ee57c54bc4088576b6e303ddd315"
+    },
+    {
+      "guid" : "ebf87293fd774fa799f5083024c6e1d39c9dad3c654dd5be8980c427fb4f022f"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/ahmadalsofi/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/ahmadalsofi/Library/Developer/Xcode/DerivedData/Pods-gwerfrviajfdnremgoepduvlvnxr/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/ahmadalsofi/Library/Developer/Xcode/DerivedData/Pods-gwerfrviajfdnremgoepduvlvnxr/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

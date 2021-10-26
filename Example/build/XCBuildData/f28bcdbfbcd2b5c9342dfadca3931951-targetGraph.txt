@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+SONetworking in Pods
+Pods-SONetworking_Example in Pods, depends on:
+SONetworking in Pods (explicit)
+Pods-SONetworking_Tests in Pods, depends on:
+Pods-SONetworking_Example in Pods (explicit)

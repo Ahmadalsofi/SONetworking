@@ -1,0 +1,6 @@
+framework module Pods_SONetworking_Example {
+  umbrella header "Pods-SONetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
