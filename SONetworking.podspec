@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'SONetworking'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A simple convenient wrapper that makes HTTPS request and read the response and decode it into a model'
   s.swift_version = '4.2'
 
