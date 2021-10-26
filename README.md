@@ -1,6 +1,6 @@
 # SONetworking
 
-An NSURLSession network abstraction layer, using Codable and Decodable for response and Encodable for request. 
+NSURLSession network abstraction layer, using Codable and Decodable for response and Encodable for request. 
 <p align="center"><img src="README-Files/headerLogo.png?raw=true"/></p>
 
 ## Project Folder and File Structure
