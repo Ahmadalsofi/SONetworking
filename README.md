@@ -28,7 +28,7 @@ Data
     ......  
 ```
 
-## High Level Overview
+## High Level Overview 
 
 ### ServiceConfig
 Configuration file, contains base URL, headers and query Parameters to be reused as an interceptor, under any instance.

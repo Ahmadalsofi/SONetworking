@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'SONetworking'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A simple convenient wrapper that makes HTTPS request and read the response and decode it into a model'
   s.swift_version = '4.2'
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Ahmadalsofi/SONetworking'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'alsofiahmad@yahoo.com' => 'alsofiahmad@yahoo.com' }
-  s.source           = { :git => 'https://github.com/Ahmadalsofi/SONetworking.git', :tag =>  s.version.to_s }
+  s.source           = { :git => 'https://github.com/Ahmadalsofi/SONetworking.git', :branch => "master", :tag =>  s.version.to_s }
 
 
   s.ios.deployment_target = '9.3'
