@@ -31,7 +31,7 @@ Data
 ## High Level Overview 
 
 ### ServiceConfig
-Configuration file, contains base URL, headers and query Parameters to be reused as an interceptor, under any instance.
+The configuration file holds the base URL, headers, and query parameters that can be utilized as an interceptor for any instance.
 
 ```swift
 public protocol NetworkConfigurable {
@@ -45,6 +45,7 @@ public protocol NetworkConfigurable {
 
 ### DataTransferService
 Decode the response into the model and return a error in an case failure.
+
 
 ```swift
 public protocol DataTransferService {
@@ -73,7 +74,8 @@ public protocol DataTransferErrorLogger {
 
 
 ### NetworkService
-take the configuration and do the request and log it.
+Perform the request with the configuration and log it.
+
 
 ```swift
 public protocol NetworkService {
@@ -103,7 +105,8 @@ public protocol NetworkErrorLogger {
 
 
 ### Endpoint
-Convert path to the URL Request with a certain method, header, body, and query.
+Transform the path into a URL request with a specified method, header, body, and query.
+
 ```swift
 public protocol Requestable {
     var path: String { get }
